@@ -12,9 +12,9 @@
 	http://www.springframework.org/schema/context/spring-context-2.5.xsd ">
 	
 	
-	<ctx:annotation-config></ctx:annotation-config>
+	<!-- <ctx:annotation-config></ctx:annotation-config>
 	<ctx:component-scan base-package="com.mum.group2"></ctx:component-scan>
-	
+	 -->
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
@@ -25,7 +25,7 @@
 		</property>
 	</bean>
 	
-	<mvc:annotation-driven />
+	<!-- <mvc:annotation-driven /> -->
 </beans>
 
 
